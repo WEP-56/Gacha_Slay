@@ -1,0 +1,6 @@
+{
+  "cards": [
+    {"id": 1, "name": "Hero", "rarity": "R", "hp": 120, "atk": 25, "image": "assets/Card/FrontTexture.png", "energy_max": 5},
+    {"id": 2, "name": "Slime", "rarity": "N", "hp": 100, "atk": 18, "image": "assets/Card/Plastic1.png"}
+  ]
+}

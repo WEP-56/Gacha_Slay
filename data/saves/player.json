@@ -1,0 +1,30 @@
+{
+  "username": "player",
+  "diamonds": 88,
+  "owned_cards": [
+    "attack_basic",
+    "battle_trance",
+    "defend_basic",
+    "heal_basic",
+    "heavy_strike",
+    "shield_bash_basic",
+    "twin_strike",
+    "vamp_strike",
+    "vulnerable_basic"
+  ],
+  "deck": [
+    "attack_basic",
+    "defend_basic",
+    "vulnerable_basic",
+    "heal_basic",
+    "heavy_strike"
+  ],
+  "gacha": {
+    "single": 0,
+    "ten": 10
+  },
+  "playtime_seconds": 0,
+  "progress": {
+    "stages": {}
+  }
+}

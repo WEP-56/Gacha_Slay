@@ -1,0 +1,87 @@
+{
+  "cards": [
+    {
+      "id": "attack_basic",
+      "label": "攻击",
+      "image": "assets/Card/GoldFrame.png",
+      "cost": 1,
+      "effects": [
+        {"name": "deal_damage", "multiplier": 0.8}
+      ]
+    },
+    {
+      "id": "defend_basic",
+      "label": "防御",
+      "image": "assets/Card/Plastic2.png",
+      "cost": 1,
+      "effects": [
+        {"name": "gain_shield", "multiplier": 0.10}
+      ]
+    },
+    {
+      "id": "vulnerable_basic",
+      "label": "脆弱",
+      "image": "assets/Card/RedFrame.png",
+      "cost": 2,
+      "effects": [
+        {"name": "apply_vulnerable", "multiplier": 2.0}
+      ]
+    },
+    {
+      "id": "heal_basic",
+      "label": "治疗",
+      "image": "assets/Card/SilverFrame.png",
+      "cost": 2,
+      "effects": [
+        {"name": "heal_self", "multiplier": 0.30}
+      ]
+    },
+    {
+      "id": "heavy_strike",
+      "label": "强力一击",
+      "image": "assets/Card/SilverFrame.png",
+      "cost": 2,
+      "effects": [
+        {"name": "deal_damage", "multiplier": 1.6}
+      ]
+    }
+    ,
+    {
+      "id": "vamp_strike",
+      "label": "吸血打击",
+      "image": "assets/Card/RedFrame.png",
+      "cost": 2,
+      "effects": [
+        {"name": "lifesteal", "multiplier": 0.8}
+      ]
+    },
+    {
+      "id": "twin_strike",
+      "label": "双重打击",
+      "image": "assets/Card/GoldFrame.png",
+      "cost": 1,
+      "effects": [
+        {"name": "deal_damage_n", "multiplier": 0.5, "times": 2}
+      ]
+    },
+    {
+      "id": "shield_bash_basic",
+      "label": "盾击",
+      "image": "assets/Card/Plastic2.png",
+      "cost": 1,
+      "effects": [
+        {"name": "shield_bash", "multiplier": 1.0}
+      ]
+    },
+    {
+      "id": "battle_trance",
+      "label": "战斗姿态",
+      "image": "assets/Card/SilverFrame.png",
+      "cost": 1,
+      "effects": [
+        {"name": "gain_energy", "multiplier": 1},
+        {"name": "add_strength", "multiplier": 2}
+      ]
+    }
+  ]
+}

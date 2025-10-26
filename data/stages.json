@@ -1,0 +1,14 @@
+{
+  "stages": [
+    {
+      "id": 1,
+      "name": "Demo 1",
+      "player_team": [
+        {"name": "Hero", "hp": 120, "atk": 25, "image": "assets/Card/FrontTexture.png", "x": 160, "y": 150}
+      ],
+      "enemy_team": [
+        {"name": "Slime", "hp": 100, "atk": 18, "image": "assets/Card/Plastic1.png", "x": 540, "y": 150}
+      ]
+    }
+  ]
+}

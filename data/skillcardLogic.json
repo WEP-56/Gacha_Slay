@@ -1,0 +1,63 @@
+{
+  "effects": {
+    "deal_damage": {
+      "target": "enemy",
+      "formula": "round(source.atk * multiplier)",
+      "apply": "damage",
+      "log": "Hero使用了：“{label}”，对{target_name}造成了{value}点伤害"
+    },
+    "deal_damage_n": {
+      "target": "enemy",
+      "formula": "round(source.atk * multiplier)",
+      "apply": "damage_n",
+      "log": "Hero使用了：“{label}”，对{target_name}造成了{value}点伤害（多段）"
+    },
+    "gain_shield": {
+      "target": "self",
+      "formula": "round(source.max_hp * multiplier)",
+      "apply": "shield",
+      "log": "Hero使用了：“{label}”，获得{value}点护盾"
+    },
+    "heal_self": {
+      "target": "self",
+      "formula": "round(source.atk * multiplier)",
+      "apply": "heal",
+      "log": "Hero使用了：“{label}”，恢复{value}点生命"
+    },
+    "apply_vulnerable": {
+      "target": "enemy",
+      "formula": "multiplier",
+      "apply": "set_next_damage_taken_multiplier",
+      "log": "Hero使用了：“{label}”，对{target_name}施加了减益"
+    },
+    "shield_bash": {
+      "target": "enemy",
+      "formula": "round(source.shield * multiplier)",
+      "apply": "damage",
+      "log": "Hero使用了：“{label}”，以盾击造成了{value}点伤害"
+    },
+    "lifesteal": {
+      "target": "enemy",
+      "formula": "round(source.atk * multiplier)",
+      "apply": "lifesteal",
+      "log": "Hero使用了：“{label}”，吸取了{value}点生命"
+    },
+    "gain_energy": {
+      "target": "self",
+      "formula": "round(multiplier)",
+      "apply": "gain_energy",
+      "log": "Hero使用了：“{label}”，获得了{value}点能量"
+    },
+    "add_strength": {
+      "target": "self",
+      "formula": "round(multiplier)",
+      "apply": "add_strength",
+      "log": "Hero使用了：“{label}”，力量提升 {value}"
+    }
+  },
+  "globals": {
+    "round": "builtin",
+    "min": "builtin",
+    "max": "builtin"
+  }
+}
